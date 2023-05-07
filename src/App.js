@@ -2,7 +2,7 @@
 function App() {
   return (
     <div>
-      <h1>Adeboss Web</h1>
+      <h1 className="text-4xl font-bold font-signature">Adeboss Web</h1>
     </div>
   );
 }
