@@ -1,6 +1,12 @@
 import React from "react";
 
 const Portfolio = () => {
+  const portfolio = [
+    {
+      id:1,
+      src: arrayDestrusct,
+    },
+  ]
   return (
     <div
       name="portfolio"
@@ -18,11 +24,24 @@ const Portfolio = () => {
           >
             Portfolio
           </p>
-          <p>Check out some fo my works right here</p>
+          <p className="py-6">Check out some fo my works right here</p>
         </div>
-        <div>
-          <div>
-            <img />
+        <div
+          className="grid sm:grid-cols-2 md:grid-cols-3 gap-8
+        px-12 sm:px-0"
+        >
+          <div className="shadow-md shadow-gray-600 rounded-lg">
+            <img
+              src=""
+              alt=""
+              className="rounded-md duration-200 hover:scale-105"
+            />
+            <div className="flex items-center justify-center">
+              <button className="w-1/2 px-6 py-3 m-4 duration-200
+              hover: scale">Demo</button>
+              <button className="w-1/2 px-6 py-3 m-4 duration-200
+              hover: scale">Code</button>
+            </div>
           </div>
         </div>
       </div>
