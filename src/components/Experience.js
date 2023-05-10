@@ -12,13 +12,24 @@ const Experience = () => {
       justify-center w-full h-full text-white"
       >
         <div>
-          <p>Experience</p>
-          <p>This are the technologies i have worked with</p>
+          <p
+            className="text-4xl font-bold border-b4
+          border-gray-500 p-2 inline"
+          >
+            Experience
+          </p>
+          <p className="py-6">This are the technologies i have worked with</p>
         </div>
 
-        <div>
-          <div>
-            <img src="" alt="" />
+        <div
+          className="w-full grid-cols-2 sm:grid-cols-3
+          gap-8 text-center py-8 px-12 sm:px-0"
+        >
+          <div
+            className="shadow-md hover:scale-105 duration-500
+          py-2 rounded-lg"
+          >
+            <img src="" alt="" className="w-20 mx-auto" />
             <p>Html</p>
           </div>
         </div>
