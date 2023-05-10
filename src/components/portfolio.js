@@ -33,9 +33,11 @@ const Portfolio = () => {
           >
             {
           portfolio.map(({id, src}) => {
-            <div className="shadow-md shadow-gray-600 rounded-lg">
+            <div 
+            key={id}
+            className="shadow-md shadow-gray-600 rounded-lg">
               <img
-                src=""
+                src="src"
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
