@@ -2,10 +2,10 @@ import React from "react";
 
 const Portfolio = () => {
   const portfolio = [
-    {
-      id:1,
-      src: arrayDestrusct,
-    },
+    // {
+    //   id:1,
+    //   src: arrayDestrusct,
+    // },
   ]
   return (
     <div
