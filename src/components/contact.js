@@ -22,7 +22,11 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <form action="" className="flex flex-col w-full md:w-1/2">
+          <form
+            action="https://getform.io/f/d4fd4e13-c2ef-4de2-9116-74f02903cdb2"
+            method="POST"
+            className="flex flex-col w-full md:w-1/2"
+          >
             <input
               type="text"
               name="name"
@@ -47,7 +51,9 @@ const Contact = () => {
               className="text-white bg-gradient-to-b 
             from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex
             items-center rounded-md hover:scale-110 duration-300"
-            ></button>
+            >
+              Let's Talk
+            </button>
           </form>
         </div>
       </div>
